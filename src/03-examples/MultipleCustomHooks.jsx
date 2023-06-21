@@ -28,13 +28,15 @@ export const MultipleCustomHooks = () => {
       <button
         onClick={() => increment()}
         disabled={isLoading}
-        className='btn btn-dark'>
+        className='btn btn-dark'
+      >
         Get +1 quotes
       </button>
       <button
         onClick={() => getQuotes()}
         disabled={isLoading}
-        className='btn btn-dark'>
+        className='btn btn-dark'
+      >
         Re-roll quote/s
       </button>
     </>

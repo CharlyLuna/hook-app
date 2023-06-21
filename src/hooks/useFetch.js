@@ -24,7 +24,7 @@ export const useFetch = (url) => {
       });
     } catch (err) {
       setState({
-        data,
+        data: null,
         isLoading: false,
         hasError: err,
       });
